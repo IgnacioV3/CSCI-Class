@@ -1,5 +1,5 @@
-   0.017676393s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint: fingerprint error for in-class v0.1.0 (/workspaces/CSCI-Class/in-class)/Check { test: false }/TargetInner { name: "in-class", doc: true, ..: with_path("/workspaces/CSCI-Class/in-class/src/main.rs", Edition2024) }
-   0.017772406s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint:     err: failed to read `/workspaces/CSCI-Class/in-class/target/debug/.fingerprint/in-class-c9d15df38ea99bd0/bin-in-class`
+   0.022855557s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint: fingerprint error for in-class v0.1.0 (/workspaces/CSCI-Class/in-class)/Check { test: false }/TargetInner { name: "in-class", doc: true, ..: with_path("/workspaces/CSCI-Class/in-class/src/main.rs", Edition2024) }
+   0.022943301s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint:     err: failed to read `/workspaces/CSCI-Class/in-class/target/debug/.fingerprint/in-class-c9d15df38ea99bd0/bin-in-class`
 
 Caused by:
     No such file or directory (os error 2)
@@ -43,8 +43,8 @@ Stack backtrace:
   25: __libc_start_main_impl
              at ./csu/../csu/libc-start.c:360:3
   26: <unknown>
-   0.091036128s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint: fingerprint error for in-class v0.1.0 (/workspaces/CSCI-Class/in-class)/Check { test: true }/TargetInner { name: "in-class", doc: true, ..: with_path("/workspaces/CSCI-Class/in-class/src/main.rs", Edition2024) }
-   0.091062077s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint:     err: failed to read `/workspaces/CSCI-Class/in-class/target/debug/.fingerprint/in-class-20589b6aa601b694/test-bin-in-class`
+   0.129185390s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint: fingerprint error for in-class v0.1.0 (/workspaces/CSCI-Class/in-class)/Check { test: true }/TargetInner { name: "in-class", doc: true, ..: with_path("/workspaces/CSCI-Class/in-class/src/main.rs", Edition2024) }
+   0.129244040s  INFO prepare_target{force=false package_id=in-class v0.1.0 (/workspaces/CSCI-Class/in-class) target="in-class"}: cargo::core::compiler::fingerprint:     err: failed to read `/workspaces/CSCI-Class/in-class/target/debug/.fingerprint/in-class-20589b6aa601b694/test-bin-in-class`
 
 Caused by:
     No such file or directory (os error 2)
